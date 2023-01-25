@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         String name = "Ashish";
         String organisation = "appsquadz";
+
         link = findViewById(R.id.link);
         nextActivity = findViewById(R.id.nextActivity);
     }
