@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        String name = "Ashish";
         link = findViewById(R.id.link);
         nextActivity = findViewById(R.id.nextActivity);
     }
